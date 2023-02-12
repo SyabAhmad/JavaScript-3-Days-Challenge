@@ -2,7 +2,7 @@
 Here are the steps you could follow to complete a 3-day JavaScript challenge:
 
 
-Day 1:
+💻 Day 1:
 
 ✔ Get familiar with the basics of JavaScript: data types, variables, operators, conditional statements, loops, and functions.
 
@@ -21,7 +21,7 @@ Day 1:
 ✔ Loops (for, while, do-while) in JavaScript
 
 
-Day 2:
+💻 Day 2:
 
 
 ✔ Study object-oriented programming in JavaScript: objects, prototypes, and classes.
@@ -41,7 +41,7 @@ Day 2:
 ✔ Event handling in JavaScript
 
 
-Day 3:
+💻 Day 3:
 
 
 ✔ Study the Document Object Model (DOM) in detail: how to select, manipulate, and style elements with JavaScript.
