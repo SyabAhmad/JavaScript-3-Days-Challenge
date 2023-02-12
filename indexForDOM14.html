@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JavaScript Development 3 Days Challenge</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    
+</head>
+<body>
+    <h2>adding element from js to DOM</h2>
+    <h3>this item should be removed in next part</h3>
+    <p>we will add paragraph after this paragraph.</p>
+
+    <script>
+        let newP = document.createElement("p");
+        let textNode = document.createTextNode("this peragraph has been created and added form the js");
+        newP.appendChild(textNode);
+        document.body.appendChild(newP);
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JavaScript Development 3 Days Challenge</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    
+</head>
+<body>
+    <h2>getElementByTagName</h2>
+    <p>
+        getElementByTagName
+    </p>
+    <p>
+        getElementByTagName
+    </p>
+    <p>
+        getElementByTagName
+    </p>
+    <script>
+        var change1 = document.getElementsByTagName("h2");
+        change1.innerHTML = "Now geting Element by Tag Name";
+        /// we can also change style of elements like this,
+        for(var i = 0;i<change1.length; i++)
+        {
+            change1[i].style.color = "red";
+
+        }
+        var change2 = document.getElementsByTagName("p");
+        change2.innerHTML = "Now geting Element by Tag Name";
+        /// we can also change style of elements like this,
+        for(var i = 0;i<change2.length; i++)
+        {
+            change2[i].style.color = "red";
+
+        }
+
+        </script>
+</body>
+</html>

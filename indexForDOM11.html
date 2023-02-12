@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JavaScript Development 3 Days Challenge</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    
+</head>
+<body>
+    <h2>getElementById</h2>
+    <p id="changeingColor">
+        getElementById
+    </p>
+    <p id="changeingColor">
+        getElementById
+    </p>
+    <p id="changeingColor">
+        getElementById
+    </p>
+    <script>
+        var change = document.getElementById("changeingColor");
+        change.innerHTML = "Now geting Element by Id";
+
+
+        /// we can slo change style of elements like this,
+        change.style.color = "red";
+    </script>
+</body>
+</html>

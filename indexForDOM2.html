@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JavaScript Development 3 Days Challenge</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        function changeme(){
+            var newValue = document.getElementById("value");
+            // newValue.innerHTML = "hey programmers";
+            if(newValue == "Hey_Developers")
+            {
+                newValue.innerHTML = "Hey_Programmer";
+            } else if(newValue == "Hey_Programmer")
+            {
+                newValue.innerHTML == " Hey_Develoeprs";
+            } else {
+                newValue.innerHTML = "NOOOO, its Not You";
+            }
+
+
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <h1 id="value">Hey_Developers</h1>
+        <button onclick="changeme()" type="submit" value="click on me">click on me</button>
+
+        <p>
+            in this code you will be able to use if else statement (conditional statement)
+            if and else
+        </p>
+    </div>
+</body>
+</body>
+</html>

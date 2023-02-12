@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JavaScript Development 3 Days Challenge</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        var newElement = document.createElement("h1");
+        var textmode = document.createTextNode("Hello Developers");
+        newElement.appendChild(textmode);
+        var parentNode = document.getElementById("my-paragraph").parentNode;
+        parentNode.insertBefore(newElement, document.getElementById("my-paragraph"));
+    </script>
+</head>
+<body>
+    
+    <div>
+
+        <p id="my-paragraph">
+            my paragraph
+            creating element from js
+        </p>
+
+    </div>
+
+</body>
+</html>

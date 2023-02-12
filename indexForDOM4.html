@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JavaScript Development 3 Days Challenge</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        // var header = document.getElementById("headers");
+        // var toBeRemove = document.getElementById("toberemove");
+        // header.removeChild(toBeRemove);
+        var button = Document.getElementById("buttons");
+        button.addEventListener("click", function(){
+            var header = document.getElementById("headers");
+            var toBeRemove = document.getElementById("toberemove");
+            header.removeChild(toBeRemove);
+        })
+    </script>
+</head>
+<body>
+    <div id="headers">
+        <h1>hello</h1>
+        <h2 id="toberemove">world</h2>
+        <h3>developers</h3>
+        <button id="buttons">click on me</button>
+    </div>
+</body>
+</html>
