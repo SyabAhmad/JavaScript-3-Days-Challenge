@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JavaScript 3 Days Challenge</title>
+</head>
+<body>
+
+	<div id="section">
+		<h1 id="marquee">hello de Developer</h1>
+	</div>
+
+	<script type="text/javascript">
+		var tag = document.getElementById("section");
+		var text = document.getElementsByTagName("h1");
+		var randomColor = Math.floor(Math.random()*16777215).toString(16);
+		for(var i=0;i<text.length;i++)
+		{
+			text[i].style.color = "#" + randomColor;
+			text[i].onclick ="#" + randomColor;
+			text[i].style.cursor = "crosshair";
+		}
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Java Script 3 Days Challenge</title>
+</head>
+<body>
+	<div id="section">
+		
+	</div>
+
+	<script type="text/javascript">
+		let newElement = document.createElement("h1");
+		let newNode = document.createTextNode(Date());
+		newElement.appendChild(newNode);
+		let parentNode = document.getElementById("section").parentNode;
+		parentNode.appendChild(newElement);
+
+	</script>
+
+</body>
+</html>

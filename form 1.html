@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Java Script 3 Days Challenge</title>
+</head>
+<body>
+
+	
+
+
+
+<h1>Form</h1>
+	Name : <input type="text" id="name">
+	Email : <input type="mail" id="mail">
+	Number : <input type="number" id="number">
+	<button id="responceData">Click me To submit</button>
+
+	<script type="text/javascript">
+	document.write("To check if all the fields or filled or not\n");
+	var name1 = document.getElementById("name");
+	var mail1 = document.getElementById("mail1");
+	var number1 = document.getElementById("number1");
+	let responce = document.getElementById("responceData");
+	responce.addEventListener("click", function(){
+		if(name1.value.length ===0)
+		{
+			return alert("all fields must be filled");
+		} else{
+			return alert("Submission succeffull");
+		
+		}
+	});
+</script>
+</body>
+</html>
